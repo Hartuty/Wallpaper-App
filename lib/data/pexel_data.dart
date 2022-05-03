@@ -17,7 +17,7 @@ class Pexeldata with ChangeNotifier {
           "https://api.pexels.com/v1/search?query=$_search&orientation=portrait&per_page=30&page=$_page"),
       headers: {
         'Authorization':
-            '563492ad6f91700001000001ae840f7c30cc4097a236fda9617b31fc',
+            '{{ADD YOUR APIKEY HERE}}',
       },
     );
     if (response.statusCode == 200) {
